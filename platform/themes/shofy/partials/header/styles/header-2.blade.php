@@ -1,3 +1,6 @@
+<a href="https://wa.me/8056896831" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background-color: #25d366; border-radius: 50%; padding: 10px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); z-index: 1000;">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 40px; height: 40px;">
+</a>
 <header>
     <div @class(['tp-header-area tp-header-height', 'tp-header-style-primary' => ! Theme::get('isHomePage')])>
         {!! Theme::partial('header.top', ['colorMode' => 'light', 'headerTopClass' => 'container', 'showUserMenu' => true]) !!}
