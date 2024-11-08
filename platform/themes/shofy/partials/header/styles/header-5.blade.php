@@ -1,3 +1,6 @@
+<a href="https://wa.me/your_number" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background-color: #25d366; border-radius: 50%; padding: 10px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); z-index: 1000;">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width: 40px; height: 40px;">
+</a>
 <header>
     {!! Theme::partial('header.top', ['headerTopClass' => 'container-fluid pl-40 pr-40']) !!}
 
@@ -97,6 +100,8 @@
                                                 @endauth
                                             </p>
                                         </div>
+																				
+
                                     </a>
                                 </div>
 
